@@ -1,0 +1,19 @@
+swagger: "2.0"
+info:
+  description: "Swagger"
+  title: "Swagger Trial"
+  version: "1.0"
+
+schemes:
+- "https"
+- "http"
+
+paths:
+  /random:
+    get:
+      summary: "Add a new pet to the store"
+      description: ""
+      responses:
+        "200":
+          description: "random stuff"
+      operationId: "App.root.return_random"
